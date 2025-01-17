@@ -1,0 +1,27 @@
+*{
+    color: red;
+}
+
+.text{
+    color: green;
+}
+
+p.text{
+    color: brown;
+}
+
+#letters{
+    color: violet;
+}
+
+.text-highest{
+    color: aqua;
+}
+
+p{
+    color: gold;
+}
+
+p.text#letters{
+    color: lime;
+}
