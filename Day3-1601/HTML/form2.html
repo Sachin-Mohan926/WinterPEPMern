@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-2</title>
+</head>
+<body>
+    <h2>Please provide more information</h2>
+    <form>
+        <div>
+            <label>Gender: </label><br>
+            <label>Male</label><input type="radio" name="gender" value="Male">
+            <label>Female</label><input type="radio" name="gender" value="Female">
+        </div>
+        <br><br>
+        <div>
+            <label>Documents: </label><br>
+            <input type="checkbox" name="document-submitted" value="passport" id="i-d-p"><label for="i-d-p">Passport</label><br>
+            <input type="checkbox" name="document-submitted" value="DL" id="i-d-l"><label for="i-d-l">Driving License</label><br>
+            <input type="checkbox" name="document-submitted" value="re-pr" id="i-d-r-p"><label for="i-d-r-p">Resident Proof</label><br>
+        </div>
+        <div>
+            <label>Score: </label><br>
+            <input type="range" name="score-yourself" min="1" max="10" value="2">
+        </div>
+
+    </form>
+</body>
+</html>
