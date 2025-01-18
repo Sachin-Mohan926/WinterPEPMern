@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    padding: 1.5em;
+    background-color: #272865;
+    color: white;
+    width: 22.5em;
+    margin: 6em auto 0;
+    border-radius: 24px;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p{
+    color: lightblue;
+    margin: 0.75em 0 0.75em;
+}
+
+h6{
+    font-size: 0.875em;
+}
+
+.small{
+    padding: 12px;
+    background-color: #272865;
+    color: white;
+    width: 180px;
+    margin: 100px auto;
+    border-radius: 12px;
+}
