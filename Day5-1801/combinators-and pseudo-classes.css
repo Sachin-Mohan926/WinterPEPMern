@@ -1,0 +1,76 @@
+/*Descendent Combinator( ) - selects elements in its descendent tree*/
+
+/* section li{
+    background-color: cadetblue;
+} 
+*/
+
+/*Child Combinator(>) - selects only the direct child of the element*/
+
+/* section>ol{
+    background-color: cadetblue;
+} */
+
+/*Adjacent next sibling combinator(+) - it only selects if the next element is 
+on the same level as the given element*/
+
+/* p+h6{
+    background-color: lime;
+} */
+
+/* section+ol{
+    background-color: brown;
+} */
+
+/*Subsequent Sibling combinator(~) - */
+
+/* p~li{
+    background-color: green;
+} */
+
+/* h6+section p+h6{
+    background-color: aquamarine;
+} */
+
+/* p{
+    transition-duration: 2s;
+    transition-property: all;
+}
+
+p:hover{
+    background-color: yellow;
+    font-size: 1.25rem;
+} */
+
+button{
+    padding: 0.3rem 0.9rem;
+    border-radius: 0.3rem;
+    border: 1px solid #3c4043;
+    background-color: #f5f3ee;
+    transition-duration: 600ms;
+    transition-property: all;
+}
+
+button:hover{
+    background-color: #cbcac8;
+    cursor: pointer;
+    scale: 1.05; /* scale property helps to grow(1+) and shrink(1-) */
+}
+
+button:active{
+    transition-duration: 0;
+    scale: 0.7;
+}
+
+button:disabled{
+    opacity: 0.6;
+}
+
+button:disabled:hover{
+    opacity: 0.6;
+    scale: 1;
+    cursor: not-allowed;
+    background-color: #f5f3ee;
+}
+
+
