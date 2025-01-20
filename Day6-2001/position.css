@@ -1,0 +1,34 @@
+.relative-box2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    position: relative;
+    left: 30px;
+}
+
+.absolute-parent{
+    width: 400px;
+    height: 300px;
+    border: 2px solid chocolate;
+    position: relative;
+}
+
+.absolute-box3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid pink;
+    position: absolute;
+    left: 20px;
+}
+
+.error-box{
+    position: fixed;
+    top: 0;
+}
+
+.sticky-box{
+    background-color: yellow;
+    color: red;
+    position: sticky;
+    top: 5px;
+}
